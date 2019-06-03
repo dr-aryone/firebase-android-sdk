@@ -2411,7 +2411,6 @@ public class MapperTest {
   @Test
   public void documentIdsRoundTrip() {
     // Implicitly verifies @DocumentId is ignored during serialization.
-
     DocumentReference ref = TestUtil.documentReference("coll/doc123");
 
     assertEquals(
